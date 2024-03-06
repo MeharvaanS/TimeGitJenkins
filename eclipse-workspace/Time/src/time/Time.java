@@ -23,9 +23,14 @@ public class Time
 {
 	public static void main(String[] args) 
 	{
-		try
-		{
 			
+			
+			int totalSeconds = getTotalSeconds("10:10:10");
+			System.out.println("**GH Total Second ="+totalSeconds);
+			
+
+		
+			/*
 		String time = JOptionPane.showInputDialog(null,
 			"Enter a time in the format hh:mm:ss", "Enter Time",
 			JOptionPane.QUESTION_MESSAGE);
@@ -52,6 +57,7 @@ public class Time
 		{
 			System.out.println("An unexpected Exception occurred");
 		}
+		*/
 	}
 
 	public static int getTotalSeconds(String time)throws NumberFormatException, StringIndexOutOfBoundsException {
